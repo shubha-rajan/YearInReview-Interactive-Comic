@@ -1,0 +1,147 @@
+article{
+    margin:auto; 
+    width:80%;
+}
+div {
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:auto;
+}
+#full-comic {
+    background-image: url('assets/full-comic.png');
+    position:absolute;
+    left:0;
+    top:0;
+    height:1000px;
+    width:740px;
+    z-index: -1;
+}
+
+#adam-piece{
+    background-image: url('assets/adam-piece-static.png');
+    position:absolute;
+    left:50px;
+    top:390px;
+    z-index: 3;
+    height: 380px;
+    width:300px;
+}
+
+#adam-piece:hover{
+    cursor: pointer;
+    background-image: url('assets/adam-piece.gif');
+    filter: hue-rotate(90deg);
+    left:1px;
+    top:340px;
+    height: 380px;
+    width:410px;
+}
+
+
+#santiago-piece {
+    background-image: url('assets/santiago-piece-static.png');
+    position:absolute;
+    left:510px;
+    top:65px;
+    z-index: 1;
+    height: 200px;
+    width:215px;
+}
+
+#santiago-piece:hover {
+    background-image: url('assets/santiago-piece.gif');
+    cursor: pointer;
+    filter: hue-rotate(90deg);
+    left:500px;
+    top:55px;
+    height: 200px;
+    width:255px;
+}
+
+#sophie-d-piece {
+    background-image: url('assets/sophie-d-piece-static.png');
+    position:absolute;
+    left:430px;
+    top:240px;
+    z-index: 3;
+    height: 140px;
+    width:250px;
+}
+
+#sophie-d-piece:hover {
+    background-image: url('assets/sophie-d-piece-3.gif');
+    cursor: pointer;
+    filter: hue-rotate(90deg);
+    left:430px;
+    top:240px;
+    height: 140px;
+    width:260px;
+}
+
+#wil-piece {
+    background-image: url('assets/wil-piece-static.png');
+    position:absolute;
+    left:60px;
+    top:215px;
+    z-index: 3;
+    height: 180px;
+    width:350px;
+}
+#wil-piece:hover{
+    background-image: url('assets/Wil-Piece_2.gif');
+    cursor: pointer;
+    filter: hue-rotate(90deg);
+    left:60px;
+    top:200px;
+    height: 180px;
+    width:370px;
+}
+#russell-piece {
+    background-image: url('assets/russell-piece-static.png');
+    position:absolute;
+    left:245px;
+    top:115px;
+    z-index: 3;
+    height: 110px;
+    width:200px;
+}
+
+#russell-piece:hover {
+    background-image: url('assets/russell-piece.gif');
+    cursor: pointer;
+    filter: hue-rotate(90deg);
+    left:240px;
+    top:110px;
+    height: 110px;
+    width:200px;
+}
+
+#august-piece {
+    background-image: url('assets/august-piece-static.png');
+    position:absolute;
+    left:310px;
+    top:350px;
+    z-index: 3;
+    height: 340px;
+    width:390px;
+}
+
+#august-piece:hover {
+    background-image: url('assets/august-piece.gif');
+    cursor: pointer;
+    filter: hue-rotate(90deg);
+    left:300px;
+    top:350px;
+    height: 340px;
+    width:400px;
+}
+#sophie {
+        background-image:url('assets/sophie.png');
+        position: absolute;
+        left: 30px;
+        top: 562px;
+        z-index: 4;
+        height:470px;
+        width:695px;
+      
+}
